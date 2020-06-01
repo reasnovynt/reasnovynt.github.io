@@ -1,0 +1,20 @@
+{
+  "name": "reasnovynt.github.io",
+  "version": "0.0.1-pre-alpha",
+  "description": "My Official Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasnovynt/reasnovynt.github.io.git"
+  },
+  "author": "Andreas Novyanto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reasnovynt/reasnovynt.github.io/issues"
+  },
+  "homepage": "https://github.com/reasnovynt/reasnovynt.github.io#readme",
+  "dependencies": {}
+}
