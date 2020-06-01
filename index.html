@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andreas Novyanto - Fullstack Web Developer</title>
+    <title>Andreas Novyanto</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -15,12 +15,39 @@
 </head>
 
 <body>
+    <!-- Modal -->
+<div id="exampleModalLong" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Selamat Datang!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Hi, nama saya Andreas.</p>
+          <p>Saya adalah seorang perancang dan pengembang aplikasi berbasis website. Kecintaan saya terhadap dunia pemrograman berawal dari ketika saya berumur 16 tahun.</p>
+        </div>
+        <div class="modal-footer">
+          Salam, <br> Andreas Novyanto
+        </div>
+      </div>
+    </div>
+  </div>
+
     <main>
         <section class="container">
             <div class="row align-items-center vh-100">
                 <div class="col">
                     <h2><a href="about.html">Hi! Saya Andreas.</a></h2>
-                    <h3>Saya merancang website dari kode <br> dan membuat karya darinya.</h3>
+                    <h4>Saya merancang website dari kode dan membuat karya darinya.</h4>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
+                        BACA PESAN
+                      </button>
+                </div>
+                <div class="col d-none d-md-block">
+
                 </div>
             </div>
         </section>
