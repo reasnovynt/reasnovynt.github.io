@@ -10,10 +10,11 @@ body {
 
 a {
     color: #33adde;
+    transition: 0.3s;
 }
 
 a:hover {
-    color: inherit;
+    color: #33adde;
 }
 
 .vh-100 {
@@ -22,6 +23,6 @@ a:hover {
 
 .bg-blur {
     opacity: 90%;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10rem);
+    backdrop-filter: blur(10rem);
 }
